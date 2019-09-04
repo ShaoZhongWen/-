@@ -1,0 +1,138 @@
+#box {
+	background-image: url(../img/02.png);
+}
+
+#navtop {
+	height: 100px;
+	background: #000000;
+	opacity: 0.6;
+}
+
+#navtop li {
+	float: left;
+}
+
+#navtop li a {
+	line-height: 100px;
+	font-size: 17px;
+	color: #AEAEAE;
+	margin: 22px;
+}
+
+#nav {
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#nav ul {
+	float: left;
+}
+
+#nav li {
+	float: left;
+}
+#nav li a {
+	line-height: 100px;
+	font-size: 17px;
+	color: #E4E4E4;
+	margin-right: 100px;
+}
+
+#nav .searchBox {
+	float: right;
+}
+
+.searchBox {
+	line-height: 100px;
+}
+
+.searchBox input {
+	width: 190px;
+	height: 34px;
+	text-indent: 8px;
+	font-size: 16px;
+}
+
+.searchBox button {
+	width: 79px;
+	height: 34px;
+	font-size: 16px;
+	color: dimgrey;
+}
+
+.searchBox input,
+.searchBox button {
+	background: whitesmoke;
+	opacity: 0.6;
+}
+
+#bgc {
+	height: 1830px;
+	background: url(../img/03.png) center;
+	overflow: hidden;
+}
+
+#bgc ul {
+	width: 920px;
+	height: 1500px;
+	margin: 60px auto 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#bgc li {
+	width: 297px;
+	height: 360px;
+	padding: 0 25px;
+	background: white;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+#bgc li a {
+	display: block;
+	font-size: 20px;
+	margin-top: 20px;
+	line-height: 32px;
+	border-bottom: 1px solid gainsboro;
+	color: #3C4750;
+}
+
+#bgc li p {
+	font-size: 15px;
+	margin: 18px;
+	line-height: 22px;
+	color: #898989;
+}
+
+#bgc li span {
+	font-size: 16px;
+	position: absolute;
+	bottom: 20px;
+	color: #208098;
+}
+
+.foot {
+	height: 150px;
+	margin-top: 120px;
+	background: #1d1c19;
+	color: #50504e;
+	overflow: hidden;
+}
+
+.foot .foot-bot {
+	height: 72px;
+	width: 800px;
+	margin: 32px auto 0;
+}
+
+.foot .botBox {
+	float: left;
+}
+
+.foot .foot-nav {
+	float: left;
+}

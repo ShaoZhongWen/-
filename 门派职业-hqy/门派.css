@@ -1,0 +1,389 @@
+body,
+div,
+span,
+p,
+a,
+ul,
+li,
+input,
+img,
+h1,
+h2,
+h3,
+h4,
+strong,
+em,
+del,
+ins,
+i {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+i {
+  font-style: normal;
+}
+body {
+  font-size: 12px;
+  line-height: 1;
+  background-color: #f3f6f6;
+}
+#wrap,
+#container {
+  width: 1600px;
+  height: 1038px;
+  position: relative;
+}
+#wrap #sidebar,
+#container #sidebar {
+  width: 265px;
+  height: 1038px;
+  background: url(image/cfcb40d8-a353-4ae0-a763-2b4400a5d7ef.png);
+}
+#wrap #sidebar #menpai-reg,
+#container #sidebar #menpai-reg {
+  width: 265px;
+  height: 212px;
+  margin: 20px auto 0;
+  color: #f3f6f6;
+  line-height: 20px;
+}
+#wrap #sidebar #menpai-reg .emile,
+#container #sidebar #menpai-reg .emile {
+  text-indent: 1em;
+  font-size: 15px;
+  height: 40px;
+  width: 263px;
+}
+#wrap #sidebar #menpai-reg .word,
+#container #sidebar #menpai-reg .word {
+  margin-top: 15px;
+}
+#wrap #sidebar #menpai-reg .log,
+#container #sidebar #menpai-reg .log {
+  font-size: 20px;
+  color: #f3f6f6;
+  background-color: #5084cb;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 40px;
+  display: block;
+}
+#wrap #sidebar #menpai-reg #tex,
+#container #sidebar #menpai-reg #tex {
+  margin-top: 10px;
+}
+#wrap #sidebar #menpai-reg #tex value,
+#container #sidebar #menpai-reg #tex value {
+  font-size: 10px;
+  color: #f3f6f6;
+}
+#wrap #sidebar #menpai-reg #tex value #tiaokuang,
+#container #sidebar #menpai-reg #tex value #tiaokuang {
+  color: #35353a;
+}
+#wrap #sidebar .download,
+#container #sidebar .download {
+  text-align: center;
+  line-height: 40px;
+  width: 210px;
+  height: 43px;
+  background-color: #019bff;
+  margin-top: 150px;
+  margin-left: 25px;
+}
+#wrap #sidebar .download a,
+#container #sidebar .download a {
+  font-size: 20px;
+  color: #f3f6f6;
+  display: block;
+}
+#wrap #sidebar .getgift,
+#container #sidebar .getgift {
+  text-align: center;
+  line-height: 40px;
+  width: 210px;
+  height: 43px;
+  margin-top: 150px;
+  margin-left: 25px;
+}
+#wrap #sidebar .getgift a,
+#container #sidebar .getgift a {
+  font-size: 20px;
+  color: #f3f6f6;
+  display: block;
+  margin-top: 15px;
+  background-color: #019bff;
+}
+#wrap .mainBox,
+#container .mainBox {
+  width: 1600px;
+  height: 1038px;
+  position: absolute;
+  left: 265px;
+  top: 0;
+}
+#wrap .mainBox img,
+#container .mainBox img {
+  position: absolute;
+  display: none;
+}
+#wrap .mainBox .miniNav,
+#container .mainBox .miniNav {
+  width: 243px;
+  height: 26px;
+  left: 710px;
+  top: 30px;
+  position: absolute;
+}
+#wrap .mainBox .miniNav a,
+#container .mainBox .miniNav a {
+  display: inline-block;
+  padding: 3px 12px;
+  color: #08070d;
+}
+#wrap .mainBox .joblist,
+#container .mainBox .joblist {
+  width: 132px;
+  height: 700px;
+  position: absolute;
+  left: 30px;
+  top: 70px;
+  background: url(image/ia_200000136.png);
+  background-position-y: 70px;
+}
+#wrap .mainBox .joblist li,
+#container .mainBox .joblist li {
+  width: 114px;
+  height: 64px;
+  position: relative;
+}
+#wrap .mainBox .joblist li a,
+#container .mainBox .joblist li a {
+  display: block;
+  width: 47px;
+  height: 56px;
+}
+#wrap .mainBox .joblist li a span,
+#container .mainBox .joblist li a span {
+  color: #f3f6f6;
+  font-size: 15px;
+  border-radius: 3px;
+  display: none;
+}
+#wrap .mainBox .joblist li a span.current,
+#container .mainBox .joblist li a span.current {
+  background-color: #0595d1;
+  position: absolute;
+  width: 67px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  left: 47px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#wrap .mainBox .joblist .li01 a,
+#container .mainBox .joblist .li01 a {
+  background: url(image/ia_200000136.png);
+  background-position-y: -5px;
+}
+#wrap .mainBox .joblist .li11 a,
+#container .mainBox .joblist .li11 a {
+  background: url(image/ia_200000136.png);
+  background-position-y: 82px;
+}
+#wrap .conBox,
+#container .conBox {
+  width: 100%;
+  height: 100%;
+}
+#wrap .conBox .sex-tab,
+#container .conBox .sex-tab {
+  width: 86px;
+  height: 44px;
+  position: absolute;
+  left: 400px;
+  top: 150px;
+}
+#wrap .conBox .sex-tab .cur,
+#container .conBox .sex-tab .cur {
+  display: inline-block;
+  background-color: #0595d1;
+  width: 43px;
+  height: 44px;
+  color: #f3f6f6;
+  line-height: 44px;
+  text-align: center;
+  font-size: 15px;
+}
+#wrap .conBox .sex-tab .female,
+#container .conBox .sex-tab .female {
+  position: absolute;
+  background-color: #09080e;
+  width: 43px;
+  height: 44px;
+  color: #f3f6f6;
+  line-height: 44px;
+  text-align: center;
+  font-size: 15px;
+}
+#wrap .conBox .introBox,
+#container .conBox .introBox {
+  width: 525px;
+  height: 747.67px;
+  position: absolute;
+  left: 160px;
+}
+#wrap .conBox .introBox p.intro_txt,
+#container .conBox .introBox p.intro_txt {
+  line-height: 26px;
+  font-size: 14px;
+  position: absolute;
+  color: #09080e;
+  width: 525px;
+  height: 78px;
+  top: 220px;
+  display: none;
+}
+#wrap .conBox .introBox .introVedio,
+#container .conBox .introBox .introVedio {
+  width: 525px;
+  height: 230px;
+  position: absolute;
+  top: 350px;
+}
+#wrap .conBox .introBox .introVedio .t,
+#container .conBox .introBox .introVedio .t {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+}
+#wrap .conBox .introBox .introVedio .t .tabMeu00_1,
+#container .conBox .introBox .introVedio .t .tabMeu00_1 {
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  left: 140px;
+}
+#wrap .conBox .introBox .introVedio .t .tabMeu00_1 li,
+#container .conBox .introBox .introVedio .t .tabMeu00_1 li {
+  width: 31px;
+  height: 20px;
+  display: inline-block;
+  background-color: #35353a;
+  line-height: 20px;
+  text-align: center;
+  color: #f3f6f6;
+  font-size: 11px;
+}
+#wrap .conBox .introBox .introVedio .t .tabMeu00_1 .current,
+#container .conBox .introBox .introVedio .t .tabMeu00_1 .current {
+  background-color: #0595d1;
+  border-left: 1px solid #0595d1;
+}
+#wrap .conBox .introBox .introVedio .vbox video,
+#container .conBox .introBox .introVedio .vbox video {
+  width: 300px;
+  height: 180px;
+  margin-top: 15px;
+}
+#wrap .conBox .introBox .introVedio .intro_tit,
+#container .conBox .introBox .introVedio .intro_tit {
+  border-bottom: 1px solid #7c7e83;
+  font-size: 18px;
+  font-weight: 700;
+  height: 60px;
+  line-height: 60px;
+  position: absolute;
+  top: 200px;
+  width: 525px;
+}
+#wrap .conBox .introBox .skillTit,
+#container .conBox .introBox .skillTit {
+  width: 525px;
+  height: 30px;
+}
+#wrap .conBox .introBox .skillTit img,
+#container .conBox .introBox .skillTit img {
+  width: 31px;
+  height: 31px;
+  top: 630px;
+  position: absolute;
+}
+#wrap .conBox .introBox .skillTit .t,
+#container .conBox .introBox .skillTit .t {
+  background: #08070d;
+  position: absolute;
+  color: #f3f6f6;
+  width: 34px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  top: 630px;
+  left: 50px;
+}
+#wrap .conBox .introBox .intro-txt,
+#container .conBox .introBox .intro-txt {
+  width: 525px;
+  height: 26px;
+  position: absolute;
+  top: 670px;
+  left: 50px;
+}
+#wrap .conBox .introBox .line,
+#container .conBox .introBox .line {
+  border-bottom: 1px dotted #7c7e83;
+  height: 1px;
+  position: absolute;
+  padding-top: 10px;
+  top: 688px;
+  line-height: 1px;
+  width: 525px;
+}
+#wrap .conBox .introBox .skillTip,
+#container .conBox .introBox .skillTip {
+  width: 525px;
+  height: 30px;
+}
+#wrap .conBox .introBox .skillTip img,
+#container .conBox .introBox .skillTip img {
+  width: 31px;
+  height: 31px;
+  top: 715px;
+  position: absolute;
+}
+#wrap .conBox .introBox .tex,
+#container .conBox .introBox .tex {
+  top: 715px;
+  background: #08070d;
+  position: absolute;
+  color: #f3f6f6;
+  width: 62px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  left: 50px;
+}
+#wrap .conBox .introBox .s,
+#container .conBox .introBox .s {
+  top: 750px;
+}
+#wrap .conBox .introBox .l,
+#container .conBox .introBox .l {
+  top: 770px;
+}

@@ -1,0 +1,251 @@
+@import './normalize.less';
+@import './base.less';
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-slideshow {
+    width: 100%;
+    height: 274px;
+     margin-top: 620px;
+
+    .w {
+        height: 100%;
+       /*  background-color: red; */
+        
+        .gameDown {
+            float: left;
+            
+            width: 251px;
+            height: 100%;
+           /*  background-color: blue; */
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                height: 100%;
+
+                li {
+                    width: 100%;
+                    height: 128px;
+                    &:first-child:hover {
+                        opacity: 0.9;
+                    }                 
+                    &:nth-child(2) {
+                        height: 148px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        text-align: center;
+                        background: url('../战斗网游/06-06-download\ \(2\).png');
+                        
+                        a {
+                            width: 50%;
+                            height: 50%;
+                            padding: 15px 0;
+                            position: relative;
+
+                            img {
+                                display: block;
+                                margin: 0 auto;
+                            }
+
+                            i {
+                                position: relative;
+                                display: block;
+                                top: -10px;
+                                font-size: 13px;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .center-slideshow {
+            float: left;
+            width: 557px;
+            height: 100%;
+            background-color: #0094ff;
+
+            .screen {
+                width: 557px;
+                height: 100%;
+                overflow: hidden; 
+                position: relative;
+
+                ul {
+                    position: absolute;
+                    left: 0;
+                    top: 0px;
+                    width: 3342px;
+
+                    li {
+                        width: 557px;
+                        height: 100%;
+                        overflow: hidden;
+                        float: left;
+                    }
+                }
+
+                ol {
+                    position: absolute;
+                    right: 10px;
+                    bottom: 10px;
+                    line-height: 20px;
+                    text-align: center;
+
+                    li {
+                        float: left;
+                        width: 30px;
+                        height: 3px;
+                        background: #000;
+                        margin-left: 10px;
+                        cursor: pointer;
+                    }
+
+                    li.current {
+                        background: #cd2626;
+                    }
+                }
+            }
+
+            #arr {
+                display: none;
+                position: relative;
+
+                span {
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    left: 5px;
+                    margin-top: -28%;
+                    background: #000;
+                    cursor: pointer;
+                    line-height: 40px;
+                    text-align: center;
+                    font-weight: bold;
+                    font-family: '黑体';
+                    font-size: 30px;
+                    color: #fff;
+                    opacity: 0.3;
+                    border: 1px solid #fff;
+                }
+
+                span#right{
+                    right: 5px;
+                    left: auto;
+                }
+            }
+        }
+
+        .right-news {
+            float: right;
+            width: 392px;
+            height: 100%;
+            background-color: #fff;
+
+            .tab {
+                height: 36px;
+                width: 368px;
+                margin: 0 auto;
+
+                li {               
+                    float: left;
+                    width: 34px;
+                    height: 36px;
+                    line-height: 32px;
+                    font-size: 15px;
+                    text-align: center;
+                    cursor: pointer;
+                    color: #235c73;
+                    margin-right: 36px;
+                    border-bottom: 4px solid #fff;
+                }
+                li.active {
+                    border-color: #235c73;
+                    font-weight: bold;
+                    
+                }
+            }
+
+            .products {
+                width: 368px;
+                margin: 0 auto;
+                height: 238px;
+                border-top: 1px solid #235c73;
+                border-bottom: 1px solid #235c73;
+                
+
+                .main {
+                    float: left;
+                    display: none;
+                }
+                .main.selected {
+                    display: block;
+
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 35px;
+                        line-height: 35px;
+                        border-bottom: 1px dotted #235c73;
+                        &:first-child {
+                            height: 46px;
+                            font-weight: 700;
+                            font-size: 17px;
+                            color: #235c73;
+                            line-height: 46px;
+                            border-bottom: none;
+                        }
+
+                        span {
+                            color: #235c73;
+                            float: left;
+                            font-size: 14px;
+                        }
+
+                        span.detail {
+                            width: 256px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                    a.recommend {
+                        background-color: #fff7e5;
+                        border: none;
+
+                        span {
+                            font-weight: bold;
+                            &:first-child {
+                                width: 46px;
+                                height: 34px;
+                                text-align: center;
+                                line-height: 34px;
+                                color: #fff;
+                                background: #cc2524;
+                                margin-right: 8px;
+                                position: relative;
+
+                                i {
+                                    width: 0;
+                                    height: 0;
+                                    border-width: 5px;
+                                    border-style: solid;
+                                    position: absolute;
+                                    right: -9px;
+                                    top: 15px;
+                                    border-color: transparent transparent transparent #cc2524;
+                                }
+                            }                    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

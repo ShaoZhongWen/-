@@ -1,0 +1,420 @@
+body,
+div,
+span,
+p,
+a,
+ul,
+li,
+input,
+img,
+h1,
+h2,
+h3,
+h4,
+strong,
+em,
+del,
+ins,
+i {
+    margin : 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color          : #000;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    border : none;
+    outline: none;
+}
+
+img {
+    border        : none;
+    vertical-align: middle;
+}
+
+i {
+    font-style: normal;
+}
+
+body {
+    font-size       : 12px;
+    line-height     : 1;
+    background-color: #f3f6f6;
+}
+
+#wrap,
+#container {
+    width              : 1600px;
+    height             : 1038px;
+    // background-color: pink;
+    position           : relative;
+
+    #sidebar {
+        width              : 265px;
+        height             : 1038px;
+        // background-color: black;
+        background         : url(image/cfcb40d8-a353-4ae0-a763-2b4400a5d7ef.png);
+
+        #menpai-reg {
+            width      : 265px;
+            height     : 212px;
+            margin     : 20px auto 0;
+            color      : #f3f6f6;
+            line-height: 20px;
+
+
+            .emile {
+                text-indent: 1em;
+                font-size  : 15px;
+                height     : 40px;
+                width      : 263px;
+            }
+
+            .word {
+                margin-top: 15px;
+            }
+
+            .log {
+                font-size       : 20px;
+                color           : #f3f6f6;
+                background-color: #5084cb;
+                margin-top      : 15px;
+                text-align      : center;
+                line-height     : 40px;
+                display         : block;
+            }
+
+            #tex {
+
+                margin-top: 10px;
+
+                value {
+                    font-size: 10px;
+                    color    : #f3f6f6;
+
+                    #tiaokuang {
+                        color: #35353a;
+                    }
+                }
+
+            }
+        }
+
+        .download {
+
+            text-align      : center;
+            line-height     : 40px;
+            width           : 210px;
+            height          : 43px;
+            background-color: #019bff;
+            margin-top      : 150px;
+            margin-left     : 25px;
+
+            a {
+                font-size    : 20px;
+                color        : #f3f6f6;
+                display      : block;
+                // margin-top: 15px;
+            }
+        }
+
+        .getgift {
+            text-align : center;
+            line-height: 40px;
+            width      : 210px;
+            height     : 43px;
+
+            margin-top : 150px;
+            margin-left: 25px;
+
+            a {
+                font-size       : 20px;
+                color           : #f3f6f6;
+                display         : block;
+                margin-top      : 15px;
+                background-color: #019bff;
+            }
+        }
+
+    }
+
+    .mainBox {
+        width     : 1600px;
+        height    : 1038px;
+        position  : absolute;
+        left      : 265px;
+        top       : 0;
+
+        img {
+            position: absolute;
+            display: none;
+        }
+        // 迷你导航栏
+        .miniNav {
+            width   : 243px;
+            height  : 26px;
+            left    : 710px;
+            top     : 30px;
+            position: absolute;
+
+            a {
+                display: inline-block;
+                padding: 3px 12px;
+                color  : #08070d;
+            }
+        }
+
+        // 迷你导航栏end
+
+        //职业列表start
+        .joblist {
+            width                   : 132px;
+            height                  : 700px;
+            position                : absolute;
+            left                    : 30px;
+            // background-color     : aquamarine;
+            top                     : 70px;
+            background              : url(image/ia_200000136.png);
+            background-position-y   : 70px;
+
+            li {
+                width : 114px;
+                height: 64px;
+                position: relative;
+
+                a {
+                    display: block;
+                    width  : 47px;
+                    height : 56px;
+                    
+
+                    span {
+                        color                 : #f3f6f6;
+                        font-size             : 15px;
+                        border-radius: 3px;
+                        display: none;
+                        
+                       
+                        &.current {
+                            background-color      : #0595d1;
+                            position: absolute;
+                            width: 67px;
+                            height: 26px;
+                            text-align: center;
+                            line-height: 26px;
+                            left: 47px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                        }
+
+                    }
+                }
+            }
+
+            .li01 {
+                a {
+                    background           : url(image/ia_200000136.png);
+                    background-position-y: -5px;
+                }
+            }
+
+            .li11 {
+                a {
+                    background           : url(image/ia_200000136.png);
+                    background-position-y: 82px;
+                }
+            }
+        }
+    }
+
+    //职业列表end
+    //所有内容开始
+    .conBox {
+        width : 100%;
+        height: 100%;
+
+        // position: absolute;
+        // z-index : 100;
+        .sex-tab {
+            width   : 86px;
+            height  : 44px;
+            position: absolute;
+            left    : 400px;
+            top     : 150px;
+
+            .cur {
+                display         : inline-block;
+                background-color: #0595d1;
+                width           : 43px;
+                height          : 44px;
+                color           : #f3f6f6;
+                line-height     : 44px;
+                text-align      : center;
+                font-size       : 15px;
+            }
+
+            .female {
+                position        : absolute;
+                background-color: #09080e;
+                width           : 43px;
+                height          : 44px;
+                color           : #f3f6f6;
+                line-height     : 44px;
+                text-align      : center;
+                font-size       : 15px;
+            }
+        }
+
+        .introBox {
+            width   : 525px;
+            height  : 747.67px;
+            position: absolute;
+            left    : 160px;
+
+            p.intro_txt {
+                line-height: 26px;
+                font-size  : 14px;
+                position   : absolute;
+                color      : #09080e;
+                width      : 525px;
+                height     : 78px;
+                top        : 220px;
+                display: none;
+            }
+
+            .introVedio {
+                width   : 525px;
+                height  : 230px;
+                position: absolute;
+                top     : 350px;
+
+                .t {
+                    font-size  : 18px;
+                    font-weight: bold;
+                    display    : inline-block;
+
+                    .tabMeu00_1 {
+                        // width   : 100px;
+                        height     : 20px;
+                        position   : absolute;
+                        top        : 5px;
+                        left       : 140px;
+
+                        li {
+                            width           : 31px;
+                            height          : 20px;
+                            display         : inline-block;
+                            background-color: #35353a;
+                            line-height     : 20px;
+                            text-align      : center;
+                            color           : #f3f6f6;
+                            font-size       : 11px;
+
+
+                        }
+
+                        .current {
+                            background-color: #0595d1;
+                            border-left     : 1px solid #0595d1;
+
+                        }
+                    }
+                }
+
+                .vbox video{
+                  width: 300px;
+                  height: 180px;
+                  margin-top: 15px;
+                }
+
+                .intro_tit {
+                    border-bottom: 1px solid #7c7e83;
+                    font-size    : 18px;
+                    font-weight  : 700;
+                    height       : 60px;
+                    line-height  : 60px;
+                    position     : absolute;
+                    top          : 200px;
+                    width        : 525px;
+                }
+
+            }
+
+            .skillTit {
+                width : 525px;
+                height: 30px;
+
+                img {
+                    width   : 31px;
+                    height  : 31px;
+                    top     : 630px;
+                    position: absolute;
+                }
+
+                .t {
+                    background: #08070d;
+                    position: absolute;
+                    color           : #f3f6f6;
+                    width: 34px;
+                    height: 20px;
+                    // display      : inline-block;
+                    line-height: 20px;
+                    text-align: center;
+                    top:630px;
+                    left: 50px;
+                }
+            }
+            .intro-txt {
+                width: 525px;
+                height: 26px;
+                position: absolute;
+                top: 670px;
+                left: 50px;
+            }
+            .line {
+                border-bottom: 1px dotted rgb(124, 126, 131);
+                height: 1px;
+                position: absolute;
+                padding-top: 10px;
+                top: 688px;
+                line-height: 1px;
+                width: 525px;
+            }
+            .skillTip {
+                width : 525px;
+                height: 30px;
+                img {
+                    width   : 31px;
+                    height  : 31px;
+                    top     : 715px;
+                    position: absolute;
+                }
+            }
+            .tex {
+                top     : 715px;
+                background: #08070d;
+                position: absolute;
+                color           : #f3f6f6;
+                width: 62px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                left: 50px;
+            }
+            .s {
+                top     : 750px;
+            }
+            .l {
+                top: 770px;
+               
+            }
+        }
+    }
+}
